@@ -7,6 +7,10 @@ https://unity.com/blog/engine-platform/fixing-time-deltatime-in-unity-2020-2-for
 
 OVRPlugin has a frame metrics API, but it doesn't work when using the *Unity OpenXR Meta* plugin.
 
+Benefits:
+- Debugging performance
+- More stable animation/lerping
+
 # Instructions
 
 1. Copy *unity/libopenxr_frame_stats.so* to the Android plugins folder in your Unity project.
